@@ -1,0 +1,38 @@
+# robots.txt for https://0xali3n.github.io/
+# Search/discovery and user-triggered retrieval crawlers are allowed.
+# Training-oriented crawlers are listed separately so policy can change without blocking search.
+
+User-agent: *
+Allow: /
+
+# Major search / discovery bots (explicit allow for clarity; default Allow already applies)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Training-related crawlers — currently allowed; change to Disallow if you prefer opt-out.
+# These are separate from search/retrieval access.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://0xali3n.github.io/sitemap.xml
